@@ -3,4 +3,4 @@ ADD Lab4.py /
 RUN pip install flask
 RUN pip install flask_restful
 EXPOSE 8080
-CMD [ 'python', 'Lab4.py']
+CMD [ "python", "./Lab4.py"]
